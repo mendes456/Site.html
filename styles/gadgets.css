@@ -11,7 +11,7 @@
 
 body{
     font-size /*tamanho da fonte*/: 100%;
-    background-color: rgb(236, 235, 241);
+    background-color: rgb(236, 235, 241)
  
 }
 .cabeçalho{
@@ -20,6 +20,7 @@ body{
     justify-content: space-around;
     align-items: center;
     padding:24px;
+    
   
 }
 
@@ -100,6 +101,7 @@ body{
 .rodape{
     padding: 20px;
     border-top: 0.4px solid #063a75;
+   
 
 }
 
