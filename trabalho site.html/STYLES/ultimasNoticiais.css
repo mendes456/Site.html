@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    font-size /*tamanho da fonte*/: 100%;
+    background-color: rgb(236, 235, 241);
+  
+   
+ 
+}
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding:24px;
+     background-color: rgb(236, 235, 241);
+  
+}
+
+.cabeçalho-imagem{
+    height: 72px;
+}
+
+.cabeçalho-menu/*classe pai*/{
+    display: flex;
+    gap: 32px;
+}
+
+.cabeçalho-menu-item{
+    list-style-type: none;
+      font-family: "Poppins", sans-serif;
+      color: #094d9b; 
+      font-weight: 400;
+      font-size: 18px;
+    
+}
+
+.cabeçalho-menu-item:hover{
+    color: #638cbb; 
+    transition: 0.3s all;
+}
+
+
+/* começo do body*/
+
+
+.conteudo-un{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #063a75;
+   
+}
+
+
+.conteudo-principal-un{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-left: 40px;
+    
+   
+}
+
+.conteudo-principal-escrito-un{
+     display/*distancia entre eles*/: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-left: 60px;
+    
+  
+
+}
+
+.conteudo-principal-escrito-titulo-un{
+    font-family:  "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: black;
+    padding: 20px;
+}
+
+.conteudo-imagem-un{
+   border-radius: 20px;
+   border:0.2px solid black;
+}
+
+.conteudo-imagem-escrito-un{
+    font-family:  "Poppins", sans-serif;
+    font-weight: 200px;
+    font-size: 15px;
+    color: black;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.rodape{
+    padding: 20px;
+    border-top: 0.4px solid #063a75;
+     background-color: rgb(236, 235, 241);
+
+}
+
+.rodape-paragrafo{
+    color: #094d9b;
+     font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-size: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
