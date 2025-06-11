@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    font-size /*tamanho da fonte*/: 100%;
+    background-color: rgb(236, 235, 241);
+ 
+}
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding:24px;
+  
+}
+
+.cabeçalho-imagem{
+    height: 72px;
+}
+
+#slogan{
+     border-radius: 80px;
+}
+
+.cabeçalho-menu/*classe pai*/{
+    display: flex;
+    gap: 32px;
+}
+
+.cabeçalho-menu-item{
+    list-style-type: none;
+      font-family: "Poppins", sans-serif;
+      color: #094d9b; 
+      font-weight: 400;
+      font-size: 18px;
+    
+}
+
+.cabeçalho-menu-item:hover{
+    color: #638cbb; 
+    transition: 0.3s all;
+}
+
+.conteudo-dc{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #063a75
+}
+
+.conteudo-dc2{
+      display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    gap: 10 px;
+    align-items: flex-start;
+    margin: 50px 120px 20px 120px
+}
+
+.conteudo-titulo-dc2{
+    font-family: "Poppins", sans-serif ;
+    font-weight: 200px;
+    font-size: 32px;
+    padding: 15px;
+}
+
+.conteudo-imagem-dc{
+     margin: 50px 0px 50px 0px;
+    padding-left: 10px;
+}
+
+.conteudo-subtitulo-dc2{
+     font-family: "Poppins", sans-serif ;
+    font-weight: 200px;
+    font-size: 24px;
+    padding: 15px;
+}
+
+.conteudo-subtitulo2-dc2{
+    font-family: "Poppins", sans-serif ;
+    font-weight: 100px;
+    font-size: 18px;
+    padding: 15px;
+} 
+
+.conteudo-texto-dc2{
+
+      font-family:"Poppins", sans-serif ;
+    font-weight: 200px;
+    font-size: 17px;
+   padding: 5px;
+       
+}
+    
+.conteudo-tabela-dc2{
+    font-family: "Poppins", sans-serif ;
+    font-weight: 200px;
+    font-size: 16px;
+   background-color: white;
+}
+
+
+
+#um{
+ color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rodape{
+    padding: 20px;
+    border-top: 0.4px solid #063a75;
+
+}
+
+.rodape-paragrafo{
+    color: #094d9b;
+     font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-size: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
